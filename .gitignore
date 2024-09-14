@@ -1,0 +1,40 @@
+.DS_Store
+
+# Jekyll build output
+_site/
+
+# Jekyll cache
+.jekyll-cache/
+
+# Sass cache
+.sass-cache/
+
+# Ruby environment normalization
+.bundle/
+vendor/
+
+# macOS system files
+.DS_Store
+
+# Editor-specific files
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# Environment variables
+.env
+
+# Node modules (if you're using any Node.js-based tools)
+node_modules/
+
+# Gemfile.lock (optional, depending on your deployment strategy)
+# Gemfile.lock

@@ -1,0 +1,19 @@
+title: inthecloud.today
+description: Your site description
+baseurl: ""
+url: "https://inthecloud.today"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
