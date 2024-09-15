@@ -1,6 +1,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset={{ site.encoding }}">
+    <meta name="theme-color" content="#73D7FF" media="(prefers-color-scheme: light)">
+    
     <title>{{ site.title }} | {{ page.title }}</title>
+    
     <link rel="stylesheet" href="/assets/css/style.css">
-  </head>
+    
+    {% if page.css %}
+        {% for item in page.css %}
+            <link rel="stylesheet" href="{{ item | prepend: '/assets/css/' }}" type="text/css">
+        {% endfor %}
+    {% endif %}
+</head>

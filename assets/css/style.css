@@ -119,3 +119,60 @@ footer a:hover {
     0%, 100% { opacity: 0; }
     50% { opacity: 0.8; }
 }
+
+/* Status page styles */
+.status-table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.status-row {
+    display: flex;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.status-row:last-child {
+    border-bottom: none;
+}
+
+.status-cell {
+    flex: 1;
+    padding: 15px;
+    font-size: 16px;
+    text-align: center; /* Center the text */
+    display: flex; /* Use flexbox for vertical centering */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+}
+
+.status-row.header .status-cell {
+    font-weight: bold;
+}
+
+.status-icon {
+    font-size: 20px;
+}
+
+.status-legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.status-legend div {
+    margin: 0 10px;
+}
+
+.last-updated {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+}
+
