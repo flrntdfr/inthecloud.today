@@ -1,6 +1,11 @@
 ---
 layout: default
+css:
+    - status.css
+permalink: "/status"
 ---
+
+<!-- This is a placeholder -->
 
 # System Status
 
@@ -22,7 +27,7 @@ layout: default
     <div class="status-cell"><span class="status-icon operational">🟢</span></div>
   </div>
   <div class="status-row">
-    <div class="status-cell">Email</div>
+    <div class="status-cell">Transactional Emails</div>
     <div class="status-cell"><span class="status-icon operational">🟢</span></div>
   </div>
 </div>
@@ -36,5 +41,9 @@ layout: default
 <p class="last-updated">Last updated: <span id="current-date-time"></span></p>
 
 <script>
-  document.getElementById('current-date-time').textContent = new Date().toLocaleString();
+  function updateDateTime() {
+    document.getElementById('current-date-time').textContent = new Date().toLocaleString();
+  }
+  updateDateTime();
+  setInterval(updateDateTime, 1000);
 </script>

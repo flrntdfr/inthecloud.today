@@ -6,9 +6,6 @@ css:
     - about.css
 ---
 
-<div class="about-container">
-<div markdown="1">
-
 # inthecloud.today
 
 ## Manifesto
@@ -52,5 +49,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. V
 
   <input type="submit" value="Get in touch today" class="cta-button">
 </form>
-
-</div>
