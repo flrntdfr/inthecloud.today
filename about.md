@@ -47,5 +47,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. V
   <label for="message">Message:</label><br>
   <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
 
-  <input type="submit" value="Get in touch today" class="cta-button">
+  <div class="button-container">
+    <input type="submit" value="Get in touch today" class="cta-button">
+  </div>
 </form>

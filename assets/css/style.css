@@ -61,3 +61,14 @@ a:hover {
     50% { opacity: 0.8; }
 }
 
+footer p {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666666;
+}
+
+footer {
+    line-height: 0.6;
+    padding-top: 30px;
+    flex-shrink: 0; /* Prevents the footer from shrinking */
+}

@@ -1,14 +1,24 @@
+/* Add these styles at the beginning of the file */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
 /* Main content */
 .index {
-    flex-grow: 1;
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 80px 20px;
 }
 
 .title {
