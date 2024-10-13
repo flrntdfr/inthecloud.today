@@ -17,24 +17,6 @@ main {
     flex: 1 0 auto;
 }
 
-.title {
-    font-size: 56px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.subtitle {
-    font-size: 28px;
-    font-weight: 400;
-    margin-bottom: 20px;
-    max-width: 600px;
-}
-
-.locations {
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-
 a {
     color: #0066cc;
     text-decoration: none;
@@ -42,23 +24,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-/* Cursor animation */
-.title .cursor {
-    display: inline-block;
-    width: 4px;
-    height: 56px;
-    background-color: #000;
-    margin-left: 4px;
-    animation: blink 1s infinite;
-    vertical-align: bottom;
-    border-radius: 2.5px;
-}
-
-@keyframes blink {
-    0%, 100% { opacity: 0; }
-    50% { opacity: 0.8; }
 }
 
 footer p {
@@ -70,5 +35,6 @@ footer p {
 footer {
     line-height: 0.6;
     padding-top: 30px;
+    padding-bottom: 20px;
     flex-shrink: 0; /* Prevents the footer from shrinking */
 }
