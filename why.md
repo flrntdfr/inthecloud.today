@@ -29,7 +29,7 @@ As generative AI and large-scale models grow, the community has become increasin
 ### Financial Constraints
 Many artists work within tight budgets, and self-hosting offers an affordable, long-term solution that saves money, allowing you to invest in your art instead of recurring fees.
 
-#### Specialized Needs and Flexibility
+### Specialized Needs and Flexibility
 Artists often need large storage for media or specialized equipment for specific tasks. With self-hosting, you can customize your system to meet these needs and fit the way you work. Your openness to new methods and experimentation makes you well-suited for self-hosting.
 
 ### Thrive on Collaboration  
